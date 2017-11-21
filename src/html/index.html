@@ -1,0 +1,39 @@
+@@include(handlebars("./_shell/_head.hbs", {
+  "root": "",
+  "pageClass": "home"
+}))
+
+@@include(handlebars('./_shell/_header.hbs', {
+  "root": "",
+  "page": "home"
+}))
+
+<main class="main">
+  <div class="landing">
+    <div class="portrait">
+      <img alt="cedar" src="images/avi.png"/>
+    </div>
+    <div class="title">
+      <h1>Web Design & Development</h1>
+    </div>
+    <div class="splash-grid">
+      <div class="splash-item">
+        <p>I am a web developer with a background in art and design. I enjoy creating custom web applications and focusing on user experience and interface design and animation. I am passionate about challenging myself by learning new technologies and languages and developing beutiful and enjoyable websites</p>
+      </div>
+
+
+      <div class="splash-item">
+        <p>Please reach for more information or if you want to collaborate on building something cool.</p>
+      </div>
+    </div>
+  </div>
+
+  @@include(handlebars('./_shell/_footer.hbs', {
+    "root": ""
+  }))
+
+</main>
+
+@@include(handlebars('./_shell/_foot.hbs', {
+  "root": ""
+}))

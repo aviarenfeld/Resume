@@ -1,0 +1,33 @@
+<header class="banner" role="banner">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <div class="logo">
+        <a class="brand" href="{{root}}"><h1>Avi Arenfeld</h1></a>
+      </div>
+
+      <button type="button" id="menu-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <div id="nav-icon3">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      </button>
+    </div>
+
+
+    <nav class="menu-nav" role="navigation">
+      <ul>
+        <li><a class="{{#if_eq page "home"}}active{{/if_eq}}" href="{{root}}">About</a></li>
+        <li><a class="{{#if_eq page "resume"}}active{{/if_eq}}" href="{{root}}resume">Resume</a></li>
+        <li><a class="{{#if_eq page "style-guide"}}active{{/if_eq}}" href="{{root}}style-guide">Contact</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+</header>
+

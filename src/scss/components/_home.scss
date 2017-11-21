@@ -1,0 +1,49 @@
+.landing {
+  //background-color: pink;
+  height: 100%;
+}
+
+.portrait {
+  display: flex;
+  img {
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+    border-radius: 50%;
+  }
+}
+
+.title {
+  h1 {
+    color: black;
+    text-align: center;
+    @include media($min-sm) {
+      text-align: center;
+    }
+  }
+}
+
+//this code can be used for grid layouts.
+// .splash-grid {
+//   display: grid;
+//   grid-template-columns: 1fr;
+//   text-align: center;
+//   padding: 20px;
+//   @include media($min-sm) {
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-gap: 20px;
+//   }
+// }
+
+.splash-grid {
+  padding: 20px;
+}
+
+.splash-item {
+  //width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  @include media($min-sm) {
+    text-align: left;
+  }
+}

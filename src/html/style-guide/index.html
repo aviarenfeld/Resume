@@ -1,0 +1,96 @@
+@@include(handlebars("../_shell/_head.hbs", {
+  "root": "../",
+  "pageClass": "style-guide"
+}))
+
+@@include(handlebars('../_shell/_header.hbs', {
+  "root": "../",
+  "page": "style-guide"
+}))
+
+<main class="main">
+
+
+  <p>Please reach out and lets build something great together. Thank you for Visiting!</p>
+    <div class="icons">
+      <i class="fa fa-twitter-square" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </div>
+
+    <h1 id="form-elements">Contact Me</h1>
+    <div id="gform_wrapper_3" class="gf_browser_gecko gform_wrapper contact-form_wrapper"><form id="gform_3" class="contact-form" action="/about/contact/" enctype="multipart/form-data" method="post">
+    <div class="gform_body">
+    <ul id="gform_fields_3" class="gform_fields top_label form_sublabel_below description_below">
+      <li id="field_3_1" class="gfield fname gfield_contains_required field_sublabel_below field_description_below">
+    <div class="gform_padding_wrapper">
+
+    <label class="gfield_label" for="input_3_1">First Name<span class="gfield_required">*</span></label>
+    <div class="ginput_container"><input id="input_3_1" class="medium" tabindex="1" name="input_1" type="text" value="" /></div>
+    </div></li>
+      <li id="field_3_2" class="gfield lname field_sublabel_below field_description_below">
+    <div class="gform_padding_wrapper">
+
+    <label class="gfield_label" for="input_3_2">Last Name</label>
+    <div class="ginput_container"><input id="input_3_2" class="medium" tabindex="2" name="input_2" type="text" value="" /></div>
+    </div></li>
+      <li id="field_3_3" class="gfield email gfield_contains_required field_sublabel_below field_description_below">
+    <div class="gform_padding_wrapper">
+
+    <label class="gfield_label" for="input_3_3">Email<span class="gfield_required">*</span></label>
+    <div class="ginput_container"><input id="input_3_3" class="medium" tabindex="3" name="input_3" type="text" value="" /></div>
+    </div></li>
+      <li id="field_3_4" class="gfield phone field_sublabel_below field_description_below">
+    <div class="gform_padding_wrapper">
+
+    <label class="gfield_label" for="input_3_4">Phone</label>
+    <div class="ginput_container"><input id="input_3_4" class="medium" tabindex="4" name="input_4" type="text" value="" /></div>
+    </div></li>
+      <li id="field_3_11" class="gfield topic-dropdown field_sublabel_below field_description_below">
+    <div class="gform_padding_wrapper">
+
+    <label class="gfield_label" for="input_3_11">Topic</label>
+    <div class="ginput_container"><select id="input_3_11" class="medium gfield_select" tabindex="5" name="input_11">
+    <option value="General Inquiries">General Inquiries</option>
+    <option value="Catering">Catering</option>
+    <option value="Press">Press</option>
+    <option value="Careers">Careers</option>
+    </select></div>
+    </div></li>
+      <li id="field_3_10" class="gfield message gfield_contains_required field_sublabel_below field_description_below">
+    <div class="gform_padding_wrapper">
+
+    <label class="gfield_label" for="input_3_10">Message<span class="gfield_required">*</span></label>
+    <div class="ginput_container"><textarea id="input_3_10" class="textarea medium" tabindex="6" cols="50" name="input_10" rows="10"></textarea></div>
+    </div></li>
+    </ul>
+    </div>
+    <div class="gform_footer top_label"><input id="gform_submit_button_3" class="gform_button button" tabindex="7" type="submit" value="Submit" />
+    <input class="gform_hidden" name="is_submit_3" type="hidden" value="1" />
+    <input class="gform_hidden" name="gform_submit" type="hidden" value="3" /><input class="gform_hidden" name="gform_unique_id" type="hidden" value="" />
+    <input class="gform_hidden" name="state_3" type="hidden" value="WyJbXSIsImY4NTY5MjU3ZmRjMGI5NTc2NjIxNmNiN2U1MWU4YzdiIl0=" />
+    <input id="gform_target_page_number_3" class="gform_hidden" name="gform_target_page_number_3" type="hidden" value="0" />
+    <input id="gform_source_page_number_3" class="gform_hidden" name="gform_source_page_number_3" type="hidden" value="1" />
+    <input name="gform_field_values" type="hidden" value="" /></div>
+    </form></div>
+
+    <h2>Check out these links:</h2>
+  <!-- Example using handlebars -->
+  <!-- Note! there are not spaces or line-breaks... -->
+  @@include(handlebars('./_sample-template.hbs', {
+    "root":"./",
+    "foo":"Bar",
+    "data":"sample-collection"
+  }))
+
+  @@include(handlebars('../_shell/_footer.hbs', {
+    "root": "../"
+  }))
+
+</main>
+
+@@include(handlebars('../_shell/_foot.hbs', {
+  "root": "../"
+}))
+
+
